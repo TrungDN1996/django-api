@@ -1,4 +1,4 @@
-## Structure
+## Folder and File Structure
 
 ```
 django-api/
