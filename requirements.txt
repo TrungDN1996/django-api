@@ -1,0 +1,5 @@
+Django>=3.2,<4.0
+djangorestframework
+django-cors-headers   # For handling CORS in APIs
+psycopg2              # For PostgreSQL integration (or another DB driver)
+stripe                # If you're using Stripe for payments

@@ -63,3 +63,14 @@ django-api/
 ├── requirements.txt            # List of Python dependencies
 ├── README.md                   # Documentation for your project
 ```
+
+## Requirements
+### Create virtual environment
+python -m venv env
+
+### Activate the virtual environment
+source env/bin/activate  # MacOS/Linux
+.\env\Scripts\activate   # Windows
+
+### Install dependencies
+pip install django djangorestframework
