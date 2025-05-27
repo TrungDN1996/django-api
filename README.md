@@ -1,4 +1,6 @@
-# Structure
+## Structure
+
+```
 django-api/
 │
 ├── django-api/                 # Django Project Root
@@ -60,3 +62,4 @@ django-api/
 ├── .gitignore                  # Git ignore file (to avoid committing unnecessary files)
 ├── requirements.txt            # List of Python dependencies
 ├── README.md                   # Documentation for your project
+```
