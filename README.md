@@ -64,13 +64,61 @@ django-api/
 ├── README.md                   # Documentation for your project
 ```
 
-## Requirements
-### Create virtual environment
-python -m venv env
+## Installation
 
-### Activate the virtual environment
-source env/bin/activate  # MacOS/Linux
-.\env\Scripts\activate   # Windows
+**1.Cloning the Repository**
 
-### Install dependencies
-pip install django djangorestframework
+```sh
+$ git clone https://github.com/TrungDN1996/django-api.git
+
+$ cd django_api
+```
+
+**2.Installing the environment control**
+
+```sh
+$ python -m venv env
+
+```
+
+**3.Activating the environment**
+
+on Windows:
+```sh
+env\Scripts\activate
+
+```
+on Mac OS / Linux:
+```sh
+$ source env/bin/activate
+
+```
+
+**4.Installing dependencies**
+
+```sh
+$ pip install -r requirements.txt
+
+```
+
+**5.Last commands to start**
+
+```sh
+$ python manage.py makemigrations
+
+$ python manage.py migrate
+
+```
+**6.Create a super user**
+
+```sh
+$ python manage.py createsuperuser admin-name
+
+```
+
+**7.Finishing running server**
+
+```sh
+$ python manage.py runserver
+
+```
