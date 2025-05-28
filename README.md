@@ -3,16 +3,15 @@
 ```
 django-api/
 │
-├── django-api/                 # Django Project Root
+├── main/                       # Django Project Root
 │   ├── __init__.py
 │   ├── settings.py             # Settings for the entire project
 │   ├── urls.py                 # Project-level URL configuration
 │   ├── wsgi.py                 # WSGI entry point
-│   ├── asgi.py                 # ASGI entry point (if using async)
-│   └── manage.py               # Command-line utility for the project
+│   └── asgi.py                 # ASGI entry point (if using async)
 │
 ├── apps/
-│   ├── users/                  # App for handling user accounts
+│   ├── user/                   # App for handling user accounts
 │   │   ├── migrations/         # Migration files for database changes
 │   │   ├── __init__.py
 │   │   ├── models.py           # User models
@@ -22,7 +21,7 @@ django-api/
 │   │   ├── permissions.py      # User permissions (admin, customer)
 │   │   └── admin.py            # Register user model to Django admin
 │
-│   ├── products/               # App for managing products
+│   ├── product/                # App for managing products
 │   │   ├── migrations/
 │   │   ├── __init__.py
 │   │   ├── models.py           # Models for Product, Category, etc.
@@ -31,7 +30,7 @@ django-api/
 │   │   ├── urls.py             # URLs related to product actions
 │   │   └── admin.py            # Register product and category models to Django admin
 │
-│   ├── orders/                 # App for managing orders
+│   ├── order/                  # App for managing orders
 │   │   ├── migrations/
 │   │   ├── __init__.py
 │   │   ├── models.py           # Models for Order, OrderItems
@@ -40,7 +39,7 @@ django-api/
 │   │   ├── urls.py             # URLs related to orders
 │   │   └── admin.py            # Register order models to Django admin
 │
-│   ├── payments/               # App for handling payment processing
+│   ├── payment/                # App for handling payment processing
 │   │   ├── migrations/
 │   │   ├── __init__.py
 │   │   ├── models.py           # Models for Payment, Transaction, etc.
@@ -62,6 +61,7 @@ django-api/
 ├── .gitignore                  # Git ignore file (to avoid committing unnecessary files)
 ├── requirements.txt            # List of Python dependencies
 ├── README.md                   # Documentation for your project
+└── manage.py                   # Command-line utility for the project
 ```
 
 ## Installation
