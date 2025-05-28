@@ -1,0 +1,3 @@
+{
+  "pylint.args": ["--disable=missing-docstring", "--disable=no-member"]
+}
