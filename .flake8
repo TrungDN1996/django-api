@@ -1,0 +1,14 @@
+[flake8]
+max-line-length = 88
+exclude = 
+    .git,
+    __pycache__,
+    build,
+    dist,
+    venv,
+    migrations
+ignore = 
+    E203,   # whitespace before ':'
+    W503,   # line break before binary operator
+    D100,D101,D102,D103,D104,D105,D106,D107   # ignore all docstring-related warnings
+max-complexity = 10

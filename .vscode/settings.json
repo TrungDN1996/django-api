@@ -1,3 +1,6 @@
 {
-  "pylint.args": ["--disable=missing-docstring", "--disable=no-member"]
+  "pylint.args": [
+    "--disable=missing-docstring", 
+    "--disable=no-member", 
+    "--disable=import-outside-toplevel"]
 }

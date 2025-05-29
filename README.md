@@ -10,7 +10,7 @@ django-api/
 │   ├── wsgi.py                 # WSGI entry point
 │   └── asgi.py                 # ASGI entry point (if using async)
 │
-├── apps/
+├── apps/                       # Django applications
 │   ├── user/                   # App for handling user accounts
 │   │   ├── migrations/         # Migration files for database changes
 │   │   ├── __init__.py
@@ -61,7 +61,8 @@ django-api/
 ├── .gitignore                  # Git ignore file (to avoid committing unnecessary files)
 ├── requirements.txt            # List of Python dependencies
 ├── README.md                   # Documentation for your project
-└── manage.py                   # Command-line utility for the project
+├── manage.py                   # Command-line utility for the project
+└── .flake8                     # Check code syntax and provide instructions on how to clean it.
 ```
 
 ## Installation

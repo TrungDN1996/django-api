@@ -146,6 +146,4 @@ dmypy.json
 cython_debug/
 
 media/
-docker-compose.yml
-Dockerfile
 logs/
