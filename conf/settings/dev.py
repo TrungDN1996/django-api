@@ -44,6 +44,7 @@ INSTALLED_APPS = [
 
     # Application definition
     'apps.product',
+    'apps.order'
 ]
 
 MIDDLEWARE = [
