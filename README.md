@@ -113,7 +113,7 @@ $ python manage.py migrate
 **6.Create a super user**
 
 ```sh
-$ python manage.py createsuperuser admin-name
+$ python manage.py createsuperuser
 
 ```
 
